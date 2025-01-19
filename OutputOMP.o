@@ -1,0 +1,296 @@
+g++-9.1.0 (GCC) 9.1.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                96
+On-line CPU(s) list:   0-95
+Thread(s) per core:    1
+Core(s) per socket:    24
+Socket(s):             4
+NUMA node(s):          4
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6252N CPU @ 2.30GHz
+Stepping:              7
+CPU MHz:               2300.000
+BogoMIPS:              4600.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              36608K
+NUMA node0 CPU(s):     0-23
+NUMA node1 CPU(s):     24-47
+NUMA node2 CPU(s):     48-71
+NUMA node3 CPU(s):     72-95
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin intel_pt ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke avx512_vnni md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+--- MATRIX SIZE N=128 ---
+---
+Average elapsed execution times of serial implementations evaluated over 10 iterations.
+Avg time_transpose_seq = 8.9772e-05	| avg_bandwidth_transpose_seq = 1.46005 GB/s
+---
+
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 1 threads.
+Avg time_transposeOMP = 9.48988e-05	| avg_bandwidth_transposeOMP = 1.38118 GB/s
+Speedup transposeOMP = 0.945977
+Efficiency transposeOMP = 94.5977%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 2 threads.
+Avg time_transposeOMP = 6.2038e-05	| avg_bandwidth_transposeOMP = 2.11277 GB/s
+Speedup transposeOMP = 1.44705
+Efficiency transposeOMP = 72.3525%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 4 threads.
+Avg time_transposeOMP = 4.20623e-05	| avg_bandwidth_transposeOMP = 3.11614 GB/s
+Speedup transposeOMP = 2.13427
+Efficiency transposeOMP = 53.3567%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 8 threads.
+Avg time_transposeOMP = 3.07202e-05	| avg_bandwidth_transposeOMP = 4.26663 GB/s
+Speedup transposeOMP = 2.92224
+Efficiency transposeOMP = 36.5281%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 16 threads.
+Avg time_transposeOMP = 0.00550527	| avg_bandwidth_transposeOMP = 0.0238085 GB/s
+Speedup transposeOMP = 0.0163066
+Efficiency transposeOMP = 0.101916%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 32 threads.
+Avg time_transposeOMP = 0.00141381	| avg_bandwidth_transposeOMP = 0.0927083 GB/s
+Speedup transposeOMP = 0.0634965
+Efficiency transposeOMP = 0.198427%
+---
+
+
+
+
+
+--- MATRIX SIZE N=256 ---
+---
+Average elapsed execution times of serial implementations evaluated over 10 iterations.
+Avg time_transpose_seq = 0.000414631	| avg_bandwidth_transpose_seq = 1.26447 GB/s
+---
+
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 1 threads.
+Avg time_transposeOMP = 0.0004082	| avg_bandwidth_transposeOMP = 1.28439 GB/s
+Speedup transposeOMP = 1.01575
+Efficiency transposeOMP = 101.575%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 2 threads.
+Avg time_transposeOMP = 0.000234781	| avg_bandwidth_transposeOMP = 2.23309 GB/s
+Speedup transposeOMP = 1.76603
+Efficiency transposeOMP = 88.3015%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 4 threads.
+Avg time_transposeOMP = 0.000115176	| avg_bandwidth_transposeOMP = 4.55205 GB/s
+Speedup transposeOMP = 3.59997
+Efficiency transposeOMP = 89.9992%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 8 threads.
+Avg time_transposeOMP = 6.10977e-05	| avg_bandwidth_transposeOMP = 8.58114 GB/s
+Speedup transposeOMP = 6.78635
+Efficiency transposeOMP = 84.8294%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 16 threads.
+Avg time_transposeOMP = 0.000908998	| avg_bandwidth_transposeOMP = 0.576776 GB/s
+Speedup transposeOMP = 0.456141
+Efficiency transposeOMP = 2.85088%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 32 threads.
+Avg time_transposeOMP = 0.00213672	| avg_bandwidth_transposeOMP = 0.245371 GB/s
+Speedup transposeOMP = 0.19405
+Efficiency transposeOMP = 0.606408%
+---
+
+
+
+
+
+--- MATRIX SIZE N=1024 ---
+---
+Average elapsed execution times of serial implementations evaluated over 10 iterations.
+Avg time_transpose_seq = 0.00980363	| avg_bandwidth_transpose_seq = 0.855664 GB/s
+---
+
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 1 threads.
+Avg time_transposeOMP = 0.0154204	| avg_bandwidth_transposeOMP = 0.543996 GB/s
+Speedup transposeOMP = 0.635759
+Efficiency transposeOMP = 63.5759%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 2 threads.
+Avg time_transposeOMP = 0.00799142	| avg_bandwidth_transposeOMP = 1.0497 GB/s
+Speedup transposeOMP = 1.22677
+Efficiency transposeOMP = 61.3384%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 4 threads.
+Avg time_transposeOMP = 0.00303084	| avg_bandwidth_transposeOMP = 2.76775 GB/s
+Speedup transposeOMP = 3.23462
+Efficiency transposeOMP = 80.8655%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 8 threads.
+Avg time_transposeOMP = 0.00159468	| avg_bandwidth_transposeOMP = 5.26036 GB/s
+Speedup transposeOMP = 6.14769
+Efficiency transposeOMP = 76.8461%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 16 threads.
+Avg time_transposeOMP = 0.00185596	| avg_bandwidth_transposeOMP = 4.51981 GB/s
+Speedup transposeOMP = 5.28223
+Efficiency transposeOMP = 33.0139%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 32 threads.
+Avg time_transposeOMP = 0.00211691	| avg_bandwidth_transposeOMP = 3.96267 GB/s
+Speedup transposeOMP = 4.6311
+Efficiency transposeOMP = 14.4722%
+---
+
+
+
+
+
+--- MATRIX SIZE N=2048 ---
+---
+Average elapsed execution times of serial implementations evaluated over 10 iterations.
+Avg time_transpose_seq = 0.0990647	| avg_bandwidth_transpose_seq = 0.338712 GB/s
+---
+
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 1 threads.
+Avg time_transposeOMP = 0.0688187	| avg_bandwidth_transposeOMP = 0.487577 GB/s
+Speedup transposeOMP = 1.4395
+Efficiency transposeOMP = 143.95%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 2 threads.
+Avg time_transposeOMP = 0.068283	| avg_bandwidth_transposeOMP = 0.491402 GB/s
+Speedup transposeOMP = 1.45079
+Efficiency transposeOMP = 72.5397%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 4 threads.
+Avg time_transposeOMP = 0.0134878	| avg_bandwidth_transposeOMP = 2.48776 GB/s
+Speedup transposeOMP = 7.34474
+Efficiency transposeOMP = 183.619%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 8 threads.
+Avg time_transposeOMP = 0.00600612	| avg_bandwidth_transposeOMP = 5.58671 GB/s
+Speedup transposeOMP = 16.494
+Efficiency transposeOMP = 206.174%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 16 threads.
+Avg time_transposeOMP = 0.00583239	| avg_bandwidth_transposeOMP = 5.75312 GB/s
+Speedup transposeOMP = 16.9853
+Efficiency transposeOMP = 106.158%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 32 threads.
+Avg time_transposeOMP = 0.0037919	| avg_bandwidth_transposeOMP = 8.84897 GB/s
+Speedup transposeOMP = 26.1253
+Efficiency transposeOMP = 81.6416%
+---
+
+
+
+
+
+--- MATRIX SIZE N=4096 ---
+---
+Average elapsed execution times of serial implementations evaluated over 10 iterations.
+Avg time_transpose_seq = 0.53746	| avg_bandwidth_transpose_seq = 0.249726 GB/s
+---
+
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 1 threads.
+Avg time_transposeOMP = 0.548091	| avg_bandwidth_transposeOMP = 0.244882 GB/s
+Speedup transposeOMP = 0.980603
+Efficiency transposeOMP = 98.0603%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 2 threads.
+Avg time_transposeOMP = 0.487071	| avg_bandwidth_transposeOMP = 0.275561 GB/s
+Speedup transposeOMP = 1.10345
+Efficiency transposeOMP = 55.1727%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 4 threads.
+Avg time_transposeOMP = 0.143745	| avg_bandwidth_transposeOMP = 0.933721 GB/s
+Speedup transposeOMP = 3.73898
+Efficiency transposeOMP = 93.4746%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 8 threads.
+Avg time_transposeOMP = 0.0767071	| avg_bandwidth_transposeOMP = 1.74974 GB/s
+Speedup transposeOMP = 7.00665
+Efficiency transposeOMP = 87.5831%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 16 threads.
+Avg time_transposeOMP = 0.0775871	| avg_bandwidth_transposeOMP = 1.7299 GB/s
+Speedup transposeOMP = 6.92719
+Efficiency transposeOMP = 43.2949%
+---
+
+---
+Average elapsed execution times of parallel implementations evaluated over 10 iterations using 32 threads.
+Avg time_transposeOMP = 0.0476112	| avg_bandwidth_transposeOMP = 2.81904 GB/s
+Speedup transposeOMP = 11.2885
+Efficiency transposeOMP = 35.2766%
+---
+
+
+
+
+

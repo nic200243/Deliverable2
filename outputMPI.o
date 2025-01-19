@@ -1,0 +1,141 @@
+g++-9.1.0 (GCC) 9.1.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+The running nodes are hpc-c11-node21.unitn.it
+Node: hpc-c11-node21.unitn.it
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                96
+On-line CPU(s) list:   0-95
+Thread(s) per core:    1
+Core(s) per socket:    24
+Socket(s):             4
+NUMA node(s):          4
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6252N CPU @ 2.30GHz
+Stepping:              7
+CPU MHz:               2300.000
+BogoMIPS:              4600.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              36608K
+NUMA node0 CPU(s):     0-23
+NUMA node1 CPU(s):     24-47
+NUMA node2 CPU(s):     48-71
+NUMA node3 CPU(s):     72-95
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin intel_pt ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke avx512_vnni md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+<<<<<<<< NUMBER OF PROCESSES = 1 >>>>>>>>
+--- MATRIX SIZE N=128 ---
+avg_time_transposeMPI = 0.000134611 s	| avg_bandwidth_transposeMPI = 1.94742 GB/s
+
+--- MATRIX SIZE N=256 ---
+avg_time_transposeMPI = 0.000571918 s	| avg_bandwidth_transposeMPI = 1.83344 GB/s
+
+--- MATRIX SIZE N=1024 ---
+avg_time_transposeMPI = 0.0138734 s	| avg_bandwidth_transposeMPI = 1.20931 GB/s
+
+--- MATRIX SIZE N=2048 ---
+avg_time_transposeMPI = 0.0680263 s	| avg_bandwidth_transposeMPI = 0.986513 GB/s
+
+--- MATRIX SIZE N=4096 ---
+avg_time_transposeMPI = 0.988666 s	| avg_bandwidth_transposeMPI = 0.271513 GB/s
+
+
+
+<<<<<<<< NUMBER OF PROCESSES = 2 >>>>>>>>
+--- MATRIX SIZE N=128 ---
+avg_time_transposeMPI = 0.000155354 s	| avg_bandwidth_transposeMPI = 2.5311 GB/s
+
+--- MATRIX SIZE N=256 ---
+avg_time_transposeMPI = 0.000577712 s	| avg_bandwidth_transposeMPI = 2.72257 GB/s
+
+--- MATRIX SIZE N=1024 ---
+avg_time_transposeMPI = 0.0123192 s	| avg_bandwidth_transposeMPI = 2.04282 GB/s
+
+--- MATRIX SIZE N=2048 ---
+avg_time_transposeMPI = 0.0632739 s	| avg_bandwidth_transposeMPI = 1.59091 GB/s
+
+--- MATRIX SIZE N=4096 ---
+avg_time_transposeMPI = 0.403674 s	| avg_bandwidth_transposeMPI = 0.997472 GB/s
+
+
+
+<<<<<<<< NUMBER OF PROCESSES = 4 >>>>>>>>
+--- MATRIX SIZE N=128 ---
+avg_time_transposeMPI = 0.00014317 s	| avg_bandwidth_transposeMPI = 4.57748 GB/s
+
+--- MATRIX SIZE N=256 ---
+avg_time_transposeMPI = 0.000587225 s	| avg_bandwidth_transposeMPI = 4.46412 GB/s
+
+--- MATRIX SIZE N=1024 ---
+avg_time_transposeMPI = 0.0119238 s	| avg_bandwidth_transposeMPI = 3.51758 GB/s
+
+--- MATRIX SIZE N=2048 ---
+avg_time_transposeMPI = 0.0603402 s	| avg_bandwidth_transposeMPI = 2.78044 GB/s
+
+--- MATRIX SIZE N=4096 ---
+avg_time_transposeMPI = 0.351647 s	| avg_bandwidth_transposeMPI = 1.90841 GB/s
+
+
+
+<<<<<<<< NUMBER OF PROCESSES = 8 >>>>>>>>
+--- MATRIX SIZE N=128 ---
+avg_time_transposeMPI = 0.000159407 s	| avg_bandwidth_transposeMPI = 7.40024 GB/s
+
+--- MATRIX SIZE N=256 ---
+avg_time_transposeMPI = 0.000641155 s	| avg_bandwidth_transposeMPI = 7.35952 GB/s
+
+--- MATRIX SIZE N=1024 ---
+avg_time_transposeMPI = 0.0114454 s	| avg_bandwidth_transposeMPI = 6.5963 GB/s
+
+--- MATRIX SIZE N=2048 ---
+avg_time_transposeMPI = 0.0580178 s	| avg_bandwidth_transposeMPI = 5.20512 GB/s
+
+--- MATRIX SIZE N=4096 ---
+avg_time_transposeMPI = 0.278876 s	| avg_bandwidth_transposeMPI = 4.33153 GB/s
+
+
+
+<<<<<<<< NUMBER OF PROCESSES = 16 >>>>>>>>
+--- MATRIX SIZE N=128 ---
+avg_time_transposeMPI = 0.000169611 s	| avg_bandwidth_transposeMPI = 13.1373 GB/s
+
+--- MATRIX SIZE N=256 ---
+avg_time_transposeMPI = 0.000690532 s	| avg_bandwidth_transposeMPI = 12.9073 GB/s
+
+--- MATRIX SIZE N=1024 ---
+avg_time_transposeMPI = 0.0129843 s	| avg_bandwidth_transposeMPI = 10.9829 GB/s
+
+--- MATRIX SIZE N=2048 ---
+avg_time_transposeMPI = 0.0562665 s	| avg_bandwidth_transposeMPI = 10.1379 GB/s
+
+--- MATRIX SIZE N=4096 ---
+avg_time_transposeMPI = 0.275846 s	| avg_bandwidth_transposeMPI = 8.27166 GB/s
+
+
+
+<<<<<<<< NUMBER OF PROCESSES = 32 >>>>>>>>
+--- MATRIX SIZE N=128 ---
+avg_time_transposeMPI = 0.000219798 s	| avg_bandwidth_transposeMPI = 19.6789 GB/s
+
+--- MATRIX SIZE N=256 ---
+avg_time_transposeMPI = 0.000733876 s	| avg_bandwidth_transposeMPI = 23.5755 GB/s
+
+--- MATRIX SIZE N=1024 ---
+avg_time_transposeMPI = 0.0143064 s	| avg_bandwidth_transposeMPI = 19.3497 GB/s
+
+--- MATRIX SIZE N=2048 ---
+avg_time_transposeMPI = 0.0603439 s	| avg_bandwidth_transposeMPI = 18.3498 GB/s
+
+--- MATRIX SIZE N=4096 ---
+avg_time_transposeMPI = 0.282022 s	| avg_bandwidth_transposeMPI = 0.475913 GB/s
+
+
+
